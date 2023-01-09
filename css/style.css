@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(4, 12, 84);
+}
+
+.navbar {
+  background-image: url("../img/navbarBackground.webp");
+  background-size: cover;
+}
+
+/* .navbar .navbar-toggler-icon {
+  color: white;
+} */
+
+.navbar .nav-link:hover {
+  color: white !important;
+}
+
+.bg-image {
+  background-image: url("../img/BackgroundHome.webp");
+  height: 120vh;
+  background-size: cover;
+  background-color: rgb(4, 12, 84);
+}
+
+.bg-image .imgHome {
+  width: 80%;
+  /* height: 50%; */
+}
+
+.karakter .headerKarakter img {
+  width: 100%;
+  background-color: rgb(4, 12, 84);
+  border-top: 1px solid rgb(167, 226, 248);
+  border-bottom: 1px solid rgb(167, 226, 248);
+}
+
+.karakter .boxKarakter .boxFaruzan img {
+  margin-bottom: 20px;
+}
+
+.karakter .boxKarakter {
+  padding-top: 20px;
+}
+
+.karakter .boxKarakter .textWanderer {
+  color: rgb(167, 226, 248);
+  font-size: 18px;
+  width: 314px;
+}
+
+.karakter .boxKarakter .textFaruzan {
+  color: rgb(167, 226, 248);
+  font-size: 18px;
+  width: 314px;
+}
+
+footer .icon i {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media screen and (max-width: 1154px) {
+  .navbar .button {
+    display: none;
+  }
+}

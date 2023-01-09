@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Company</title>
+    <!-- CSS Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <!-- Icon Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS External -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="img/logoGenshin.webp" width="60" alt=""
+        /></a>
+        <button
+          class="navbar-toggler bg-info"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-info" href="#karakter">Karakter Baru</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-info" href="#tcg"
+                >Genius Invokation TCG</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-info" href="#senjata">Senjata Baru</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-info" href="#informasi"
+                >Informasi Versi Baru</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-info" href="#event">Event Lainnya</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#" style="color: white"
+                >Unduh Game</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="button">
+          <form class="container-fluid justify-content-start">
+            <button
+              class="btn btn-outline-info me-2 rounded-pill"
+              type="button"
+            >
+              Unduh Versi PC
+            </button>
+            <button
+              class="btn btn-outline-info me-2 rounded-pill"
+              type="button"
+            >
+              Situs Resmi
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Home -->
+    <div class="bg-image position-relative">
+      <img
+        src="img/imgTextHome.webp"
+        alt="Text"
+        class="imgHome position-absolute top-50 end-0 translate-middle-y"
+      />
+    </div>
+    <!-- End Home -->
+
+    <!-- Karakter -->
+    <div class="karakter" id="karakter">
+      <div class="headerKarakter">
+        <img src="img/headerKarakter.webp" alt="Karakter" />
+      </div>
+      <div class="boxKarakter">
+        <div
+          class="boxWanderer"
+          style="
+            background-image: url(img/heroWanderer.webp);
+            height: 120vh;
+            background-size: cover;
+            background-color: rgb(4, 12, 84);
+          "
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
+          <img src="img/Wanderer.webp" alt="" width="370" height="77" />
+          <div class="borderImg" style="margin: 30px 0 30px 80px">
+            <a href="#"
+              ><img
+                src="img/imgBorderWanderer.webp"
+                alt="wanderer"
+                width="258"
+                height="157"
+            /></a>
+            <p class="textWanderer">
+              Seorang pengelana dengan identitas misterius. Berpakaian seperti
+              "Shugenja", tapi tutur kata dan perbuatannya malah tidak seperti
+              "Shugenja".
+            </p>
+            <button
+              class="btn btn-outline-info me-2 rounded-pill"
+              type="button"
+            >
+              Pelajari Lebih Lanjut
+            </button>
+          </div>
+        </div>
+        <div
+          class="boxFaruzan position-relative"
+          style="
+            background-image: url(img/heroFaruzan.webp);
+            height: 120vh;
+            background-size: cover;
+            background-color: rgb(4, 12, 84);
+          "
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
+          <img
+            src="img/Faruzan.webp"
+            alt=""
+            width="370"
+            height="77"
+            class="position-absolute end-0"
+          />
+          <div
+            class="borderImg position-absolute end-0"
+            style="margin: 110px 20px 0 0"
+          >
+            <a href="#"
+              ><img
+                src="img/imgBorderFaruzan.webp"
+                alt="Faruzan"
+                width="258"
+                height="157"
+                class=""
+            /></a>
+            <p class="textFaruzan">
+              Peneliti dari "Seratus Tahun Lalu". Dia suka mengidentifikasi
+              dirinya sendiri sebagai senior semua orang dan punya pengetahuan
+              yang banyak mengenai naskah kuno dan berbagai jenis mesin.
+            </p>
+            <button
+              class="btn btn-outline-info me-2 rounded-pill"
+              type="button"
+            >
+              Pelajari Lebih Lanjut
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Karakter -->
+
+    <!-- Genius Infokation TCG -->
+    <div class="containerTCG" id="tcg">
+      <img
+        src="img/headerText.webp"
+        alt="TCG"
+        style="width: 100%; padding: 20px; background-color: rgb(241, 221, 195)"
+      />
+      <div
+        class="contentTCG position-relative"
+        style="
+          background-image: url(img/TCGBackground1.jpg);
+          background-size: cover;
+          height: 120vh;
+        "
+      >
+        <div class="imgTCG position-absolute start-0 bottom-0">
+          <img src="img/imgTCG.png" alt="" style="width: 100%" />
+        </div>
+      </div>
+      <div
+        class="boxTCG d-flex justify-content-center"
+        style="background-color: rgb(241, 221, 195)"
+      >
+        <div class="row row-cols-1 row-cols-md-3 g-4 m-5" style="width: 80%">
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/CardAyaka.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center text-info">
+                <h5 class="card-title">Ayaka</h5>
+                <ul class="card-text list-unstyled">
+                  <li>Kamisato Art: Kabuki</li>
+                  <li>Kamisato Art: Hyouka</li>
+                  <li>Kamisato Art: Soumetsu</li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Element Cryo</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/CardGanyu.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center text-info">
+                <h5 class="card-title">Ganyu</h5>
+                <ul class="card-text list-unstyled">
+                  <li>Liutian Archery</li>
+                  <li>Trail of the Qilin</li>
+                  <li>Frostflake Arrow</li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Element Cryo</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/CardJean.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center text-info">
+                <h5 class="card-title">Jean</h5>
+                <ul class="card-text list-unstyled">
+                  <li>Favonius Bladeword</li>
+                  <li>Gale Blade</li>
+                  <li>Dandelion Breeze</li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Element Anemo</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Genius Infokation TCG -->
+
+    <!-- Senjata Baru -->
+    <div class="containerSenjata" id="senjata">
+      <img
+        src="img/SenjataBaru.webp"
+        alt=""
+        style="
+          width: 100%;
+          border-bottom: 1px solid white;
+          border-top: 1px solid white;
+        "
+      />
+      <div class="boxSenjata position-relative" style="height: 100vh">
+        <div class="senjataWanderer">
+          <img
+            src="img/SenjataWanderer.webp"
+            class="img-fluid"
+            alt=""
+            style="
+              position: absolute;
+              max-width: 765px;
+              height: 185;
+              left: 25%;
+              top: 15%;
+              background-size: 100%;
+            "
+          />
+          <h2
+            style="
+              font-family: 'Lobster', cursive;
+              color: rgb(214, 181, 128);
+              position: absolute;
+              width: 386px;
+              height: 43px;
+              left: 47%;
+              top: 17%;
+            "
+          >
+            Tulaytullah's Remebrance
+          </h2>
+          <p
+            style="
+              color: rgb(202, 230, 245);
+              text-align: center;
+              white-space: pre-wrap;
+              position: absolute;
+              left: 42%;
+              top: 22%;
+              font-size: 14px;
+            "
+          >
+            "Lonceng yang terbuat dari safir berwarna gelap dan perak murni.
+            Suara gemanya sangat tajam dan jauh."
+          </p>
+        </div>
+        <div class="senjataBaru">
+          <img
+            src="img/NewWeapon.webp"
+            alt=""
+            style="
+              position: absolute;
+              width: 787px;
+              height: 322;
+              left: 25%;
+              top: 45%;
+            "
+          />
+          <h2
+            style="
+              font-family: 'Lobster', cursive;
+              color: rgb(214, 181, 128);
+              position: absolute;
+              width: 386px;
+              height: 43px;
+              left: 36%;
+              top: 55%;
+            "
+          >
+            Toukabou Shigure
+          </h2>
+          <p
+            style="
+              color: rgb(202, 230, 245);
+              text-align: center;
+              white-space: pre-wrap;
+              position: absolute;
+              left: 25%;
+              top: 60%;
+              font-size: 14px;
+            "
+          >
+            "Payung kertas minyak yang agak istimewa. Meskipun sudah terbiasa
+            dengan angin dan hujan dalam pengembaraan yang panjang, mungkin
+            seseorang akan bisa memperoleh kebahagiaan saat mengagumi
+            pemandangan hujan di bawah perlindungan payung ini."
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Senjata Baru -->
+
+    <!-- Informasi Versi Baru -->
+    <div class="containerInformasi" id="informasi" style="height: 120vh">
+      <img
+        src="img/informasiVersiBaru.webp"
+        alt=""
+        style="
+          width: 100%;
+          border-bottom: 1px solid white;
+          border-top: 1px solid white;
+        "
+      />
+      <div id="carouselExampleFade" class="carousel slide carousel-fade pt-5">
+        <div class="carousel-inner">
+          <div
+            class="carousel-item active"
+            style="display: flex; justify-content: center"
+          >
+            <img src="img/RaidenShogun.webp" alt="..." style="width: 309px" />
+            <p
+              style="
+                color: rgb(255, 255, 255);
+                font-weight: bold;
+                position: absolute;
+                left: 23%;
+                top: 75%;
+              "
+            >
+              Raiden Shogun
+            </p>
+            <img src="img/AratakiItto.webp" alt="..." style="width: 309px" />
+            <p
+              style="
+                color: rgb(255, 255, 255);
+                font-weight: bold;
+                position: absolute;
+                top: 75%;
+                left: 43.5%;
+              "
+            >
+              Arataki Itto
+            </p>
+            <img src="img/KamisatoAyato.webp" alt="..." style="width: 394px" />
+            <p
+              style="
+                color: rgb(255, 255, 255);
+                font-weight: bold;
+                position: absolute;
+                top: 75%;
+                right: 27.5%;
+              "
+            >
+              Kamisato Ayato
+            </p>
+          </div>
+          <div
+            class="carousel-item"
+            style="display: flex; justify-content: space-evenly"
+          >
+            <img src="img/eventAkitsu.webp" alt="..." style="width: 345px" />
+            <p
+              style="
+                color: rgb(202, 230, 245);
+                font-weight: bold;
+                position: absolute;
+                top: 6%;
+                left: 32%;
+              "
+            >
+              Akitsu <br />
+              Kimodameshi
+            </p>
+            <img src="img/kotaKabut.webp" alt="..." style="width: 345px" />
+            <p
+              style="
+                color: rgb(202, 230, 245);
+                font-weight: bold;
+                position: absolute;
+                top: 23%;
+                right: 24%;
+              "
+            >
+              Kota Kabut: Alam Pasir
+            </p>
+          </div>
+          <div
+            class="carousel-item"
+            style="display: flex; justify-content: space-evenly"
+          >
+            <img
+              src="img/eventJejakAngin.webp"
+              alt="..."
+              style="width: 345px"
+            />
+            <p
+              style="
+                color: rgb(4, 12, 84);
+                font-weight: bold;
+                position: absolute;
+                bottom: 0%;
+                left: 25%;
+              "
+            >
+              Jejak Sang Angin
+            </p>
+            <img src="img/melintasiAlam.webp" alt="..." style="width: 345px" />
+            <p
+              style="
+                color: rgb(4, 12, 84);
+                font-weight: bold;
+                position: absolute;
+                bottom: 0%;
+                right: 25%;
+              "
+            >
+              Melintasi Alam Liar
+            </p>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- End Informasi Versi Baru -->
+
+    <!-- Event Lainnya -->
+    <div class="containerEvent" id="event" style="height: 120vh">
+      <img
+        src="img/HeaderImage.webp"
+        alt=""
+        style="
+          width: 100%;
+          border-bottom: 1px solid white;
+          border-top: 1px solid white;
+        "
+      />
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active pt-5">
+            <div
+              class="boxSatu"
+              style="
+                height: 560px;
+                position: relative;
+                background-image: url(img/CoverBackgroundEvent.webp);
+                background-size: cover;
+                width: 898px;
+                top: 24%;
+                left: 20%;
+              "
+            >
+              <img
+                src="img/Event1.webp"
+                class=""
+                alt="..."
+                style="width: 720px; position: absolute; top: 8.2%; left: 10%"
+              />
+              <p
+                style="
+                  color: rgb(202, 230, 245);
+                  position: absolute;
+                  bottom: 5%;
+                  left: 20%;
+                "
+              >
+                Event Web "101 Kisah Youkai" Telah Dimulai! Ikuti Event-nya
+                Untuk Mendapatkan <br />
+                Primogems Dan Hadiah Lainnya!
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item pt-5">
+            <div
+              class="boxDua"
+              style="
+                height: 560px;
+                position: relative;
+                background-image: url(img/CoverBackgroundEvent.webp);
+                background-size: cover;
+                width: 898px;
+                top: 24%;
+                left: 20%;
+              "
+            >
+              <img
+                src="img/Event2.webp"
+                class=""
+                alt="..."
+                style="width: 720px; position: absolute; top: 8.2%; left: 10%"
+              />
+              <p
+                style="
+                  color: rgb(202, 230, 245);
+                  position: absolute;
+                  bottom: 5%;
+                  left: 20%;
+                "
+              >
+                Dapatkan Dan Kirimkan Kartu Ucapan Musim Dingin-mu. Temukan
+                Easter Egg <br />
+                yang Tersembunyi Dan Dapatkan Banyak Hadiah~
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- End Event Lainnya -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center">
+      <img src="img/FooterGenshin.png" alt="" />
+      <div class="icon pb-3">
+        <i
+          class="bi bi-instagram"
+          style="
+            display: inline-block;
+            width: 35px;
+            height: 34px;
+            background-color: white;
+            color: rgb(242, 133, 244);
+            border-radius: 50%;
+            font-size: 22px;
+          "
+        ></i>
+        <i
+          class="bi bi-youtube"
+          style="
+            display: inline-block;
+            width: 35px;
+            height: 34px;
+            background-color: white;
+            color: rgb(232, 40, 40);
+            border-radius: 50%;
+            font-size: 22px;
+          "
+        ></i>
+        <i
+          class="bi bi-facebook"
+          style="
+            display: inline-block;
+            width: 35px;
+            height: 34px;
+            background-color: white;
+            color: rgb(40, 94, 232);
+            border-radius: 50%;
+            font-size: 22px;
+          "
+        ></i>
+        <i
+          class="bi bi-discord"
+          style="
+            display: inline-block;
+            width: 35px;
+            height: 34px;
+            background-color: white;
+            color: rgb(33, 93, 244);
+            border-radius: 50%;
+            font-size: 22px;
+          "
+        ></i>
+        <i
+          class="bi bi-twitter"
+          style="
+            display: inline-block;
+            width: 35px;
+            height: 34px;
+            background-color: white;
+            color: rgb(33, 177, 244);
+            border-radius: 50%;
+            font-size: 22px;
+          "
+        ></i>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- JavaSCript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS JavaScript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
